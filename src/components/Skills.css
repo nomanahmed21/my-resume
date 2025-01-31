@@ -1,0 +1,81 @@
+/* Main container */
+.skills-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Dark mode */
+  body.dark-mode .skills-container {
+    background: #333;
+    color: white;
+  }
+  
+  /* Category title */
+  .skill-category h3 {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  /* Skill list */
+  .skill-list {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .skill-item {
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Progress Bar */
+  .progress-bar {
+    width: 70%;
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background: #007bff;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  /* Dark Mode for Progress Bar */
+  body.dark-mode .progress-bar {
+    background: #555;
+  }
+  
+  body.dark-mode .progress-fill {
+    background: #00d9ff;
+  }
+  
+  /* Code Display */
+  .code-display {
+    margin-top: 20px;
+    padding: 10px;
+    background: #222;
+    color: #fff;
+    font-family: monospace;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .code-display pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
